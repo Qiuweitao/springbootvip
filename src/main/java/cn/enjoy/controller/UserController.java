@@ -19,7 +19,7 @@ public class UserController {
 
     @RequestMapping("/hello")
     public Object sayHello() {
-        logger.debug("这是个hello的日志");
+        logger.debug("这是个hello的日志 --ver");
         return "hello";
     }
 
